@@ -1,6 +1,10 @@
-# IUQ: Interrogation-based Uncertainty Quantification
+# IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation [ACL 2026]
 
-IUQ detects hallucinations in long-form LLM generation by decoupling each atomic claim from its generation context and interrogating the model with targeted independent questions. The final per-claim uncertainty score combines cross-sample **supportness** with intra-sample **faithfulness** via exponential-decay impact weighting.
+This repo is the implementation of **IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation**.
+
+IUQ quantifies uncertainty in long-form Large-Language-Model generation by interrogating the model with targeted independent questions. The final claim-level uncertainty score is a combination of cross-sample consistency and the model's faithfulness to the generative context.
+
+![IUQ illustration](assets/IUQ_gemini_generated.png)
 
 ---
 
