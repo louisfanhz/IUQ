@@ -1,0 +1,152 @@
+{
+    "longfact-objects_20th-century-events": [
+        {"prompt": "Can you describe the occurrences during the Watts Riots?", "wiki_entity": "Watts riots"},
+        {"prompt": "What transpired during the Cuban Missile Crisis in 1962?", "wiki_entity": "Cuban Missile Crisis"},
+        {"prompt": "Could you tell me what unfolded during the Apollo 11 Moon Landing in 1969?", "wiki_entity": "Apollo 11"},
+        {"prompt": "Can you describe what happened during the Woodstock Music Festival in 1969?", "wiki_entity": "Woodstock"}
+    ],
+    "longfact-objects_accounting": [
+        {"prompt": "Can you tell me about the audit and assurance company Ernst & Young Global Limited?", "wiki_entity": "Ernst & Young"},
+        {"prompt": "Can you provide information about the Certified General Accountants Association of Canada?", "wiki_entity": "Certified General Accountants Association of Canada"},
+        {"prompt": "Can you provide details about the Sage Group accounting software?", "wiki_entity": "Sage Group"},
+        {"prompt": "Can you provide details about the International Accounting Standards Board?", "wiki_entity": "International Accounting Standards Board"}
+    ],
+    "longfact-objects_architecture": [
+        {"prompt": "What led to Frank Lloyd Wright's design choice for the circular shape of the Guggenheim Museum in New York City?", "wiki_entity": "Solomon R. Guggenheim Museum"},
+        {"prompt": "What can you tell me about The Fallingwater house designed by Frank Lloyd Wright?", "wiki_entity": "Fallingwater"},
+        {"prompt": "What are the key architectural features of the Notre-Dame Cathedral in Paris?", "wiki_entity": "Notre-Dame de Paris"},
+        {"prompt": "Can you provide an introduction to the design firm Skidmore, Owings & Merrill?", "wiki_entity": "SOM (architectural firm)"}
+    ],
+    "longfact-objects_astronomy": [
+        {"prompt": "What can you tell me about the Sagittarius A*?", "wiki_entity": "Sagittarius A*"},
+        {"prompt": "Could you explain what the Kepler Space Telescope is?", "wiki_entity": "Kepler space telescope"},
+        {"prompt": "Could you explain what the event, Supernova 1987A, is?", "wiki_entity": "SN 1987A"},
+        {"prompt": "Can you tell me about the Crab Nebula?", "wiki_entity": "Crab Nebula"}
+    ],
+    "longfact-objects_biology": [
+        {"prompt": "What can you tell me about the Giant Sequoia?", "wiki_entity": "Sequoiadendron giganteum"},
+        {"prompt": "What can you tell me about the Archaeopteryx?", "wiki_entity": "Archaeopteryx"},
+        {"prompt": "What can you tell me about the Aye-aye?", "wiki_entity": "Aye-aye"},
+        {"prompt": "What can you tell me about the Titan Arum?", "wiki_entity": "Titan arum"}
+    ],
+    "longfact-objects_business-ethics": [
+        {"prompt": "What was the controversy surrounding the Samsung's Galaxy Note 7 explosion incidents?", "wiki_entity": "Samsung Galaxy Note 7"},
+        {"prompt": "What is the controversy related to the Goldman Sachs 1MDB scandal?", "wiki_entity": "1Malaysia Development Berhad scandal"},
+        {"prompt": "What is the controversy surrounding the Bernard Madoff investment fraud?", "wiki_entity": "Madoff investment scandal"},
+        {"prompt": "What was the controversy behind the Uber Greyball program?", "wiki_entity": "Controversies surrounding Uber"}
+    ],
+    "longfact-objects_chemistry": [
+        {"prompt": "What is the Agilent High Performance Liquid Chromatography (HPLC) device used for in analytical chemistry?", "wiki_entity": "High-performance liquid chromatography"},
+        {"prompt": "What is the significance of the Royal Society of Chemistry in the global chemistry community?", "wiki_entity": "Royal Society of Chemistry"},
+        {"prompt": "Tell me about the company Sigma-Aldrich.", "wiki_entity": "Sigma-Aldrich"},
+        {"prompt": "Who is Fritz Haber, known for the Haber process?", "wiki_entity": "Fritz Haber"}
+    ],
+    "longfact-objects_clinical-knowledge": [
+        {"prompt": "Who is Alexander Fleming?", "wiki_entity": "Alexander Fleming"},
+        {"prompt": "What is Massachusetts General Hospital?", "wiki_entity": "Massachusetts General Hospital"},
+        {"prompt": "What is the McGill University Health Centre?", "wiki_entity": "McGill University Health Centre"},
+        {"prompt": "What is the Brigham and Women's Hospital?", "wiki_entity": "Brigham and Women's Hospital"}
+    ],
+    "longfact-objects_computer-science": [
+        {"prompt": "What is The Titan supercomputer?", "wiki_entity": "Titan (supercomputer)"},
+        {"prompt": "What is the ENIAC computer?", "wiki_entity": "ENIAC"},
+        {"prompt": "Who is Barbara Liskov?", "wiki_entity": "Barbara Liskov"},
+        {"prompt": "What is the Intel 8086 microprocessor?", "wiki_entity": "Intel 8086"}
+    ],
+    "longfact-objects_computer-security": [
+        {"prompt": "What is the password manager LastPass?", "wiki_entity": "LastPass"},
+        {"prompt": "What is the malware removal tool Malwarebytes?", "wiki_entity": "Malwarebytes"},
+        {"prompt": "What is the antivirus software Avast?", "wiki_entity": "Avast Antivirus"},
+        {"prompt": "What is the secure communication app Signal?", "wiki_entity": "Signal (software)"}
+    ],
+    "longfact-objects_economics": [
+        {"prompt": "Can you provide an overview of the International Monetary Fund?", "wiki_entity": "International Monetary Fund"},
+        {"prompt": "Can you provide an overview of the Federal Reserve Bank of New York?", "wiki_entity": "Federal Reserve Bank of New York"},
+        {"prompt": "Can you tell me about the Bank for International Settlements?", "wiki_entity": "Bank for International Settlements"},
+        {"prompt": "Can you tell me about the U.S. Federal Reserve System?", "wiki_entity": "Federal Reserve"}
+    ],
+    "longfact-objects_gaming": [
+        {"prompt": "What is the gaming company \"Blizzard Entertainment\"?", "wiki_entity": "Blizzard Entertainment"},
+        {"prompt": "Who is the character Marcus Fenix in the Gears of War series?", "wiki_entity": "Marcus Fenix"},
+        {"prompt": "What is the video game \"Dark Souls III\"?", "wiki_entity": "Dark Souls III"},
+        {"prompt": "Who is the character Ezio Auditore from the game series \"Assassin's Creed\"?", "wiki_entity": "Ezio Auditore da Firenze"}
+    ],
+    "longfact-objects_geography": [
+        {"prompt": "What can you tell me about the Antarctic Peninsula?", "wiki_entity": "Antarctic Peninsula"},
+        {"prompt": "What can you tell me about the Panama Canal?", "wiki_entity": "Panama Canal"},
+        {"prompt": "What can you tell me about the Greenland Ice Sheet?", "wiki_entity": "Greenland ice sheet"},
+        {"prompt": "What can you tell me about Yellowstone National Park?", "wiki_entity": "Yellowstone National Park"}
+    ],
+    "longfact-objects_global-facts": [
+        {"prompt": "Can you describe the Giza Pyramid Complex?", "wiki_entity": "Giza pyramid complex"},
+        {"prompt": "Can you tell me about the Serengeti National Park?", "wiki_entity": "Serengeti National Park"},
+        {"prompt": "Can you describe the Niagara Falls?", "wiki_entity": "Niagara Falls"},
+        {"prompt": "Can you describe the Statue of Liberty?", "wiki_entity": "Statue of Liberty"}
+    ],
+    "longfact-objects_history": [
+        {"prompt": "What can you tell me about the Battle of Hastings?", "wiki_entity": "Battle of Hastings"},
+        {"prompt": "What can you tell me about the Haymarket Riot?", "wiki_entity": "Haymarket affair"},
+        {"prompt": "What can you tell me about the coronation of Queen Elizabeth II?", "wiki_entity": "Coronation of Elizabeth II"},
+        {"prompt": "What can you tell me about the execution of Marie Antoinette?", "wiki_entity": "Marie Antoinette"}
+    ],
+    "longfact-objects_international-law": [
+        {"prompt": "Can you provide details about the International Covenant on Civil and Political Rights?", "wiki_entity": "International Covenant on Civil and Political Rights"},
+        {"prompt": "What is the Geneva Convention?", "wiki_entity": "Geneva Conventions"},
+        {"prompt": "Can you tell me about the World Trade Organization's Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS)?", "wiki_entity": "TRIPS Agreement"},
+        {"prompt": "Can you detail the United Nations Human Rights Council?", "wiki_entity": "United Nations Human Rights Council"}
+    ],
+    "longfact-objects_jurisprudence": [
+        {"prompt": "Who is Roscoe Pound?", "wiki_entity": "Roscoe Pound"},
+        {"prompt": "Who is Justice Ruth Bader Ginsburg?", "wiki_entity": "Ruth Bader Ginsburg"},
+        {"prompt": "Who is lawyer Johnny Cochran?", "wiki_entity": "Johnnie Cochran"},
+        {"prompt": "Who is Judge Lance Ito?", "wiki_entity": "Lance Ito"}
+    ],
+    "longfact-objects_machine-learning": [
+        {"prompt": "What is the Amazon Sagemaker service for machine learning?", "wiki_entity": "Amazon SageMaker"},
+        {"prompt": "What is the BERT model in the field of machine learning?", "wiki_entity": "BERT (language model)"},
+        {"prompt": "What is the Keras deep learning library?", "wiki_entity": "Keras"},
+        {"prompt": "What is the NLTK library for machine learning?", "wiki_entity": "Natural Language Toolkit"}
+    ],
+    "longfact-objects_management": [
+        {"prompt": "Who is Reed Hastings and what was his role at Netflix?", "wiki_entity": "Reed Hastings"},
+        {"prompt": "Who is Indra Nooyi?", "wiki_entity": "Indra Nooyi"},
+        {"prompt": "What can you tell me about Sundar Pichai's leadership at Google?", "wiki_entity": "Sundar Pichai"},
+        {"prompt": "Who is Doug McMillon and what is his role at Walmart?", "wiki_entity": "Doug McMillon"}
+    ],
+    "longfact-objects_mathematics": [
+        {"prompt": "Who is Cedric Villani?", "wiki_entity": "Cédric Villani"},
+        {"prompt": "Who is Leonhard Euler?", "wiki_entity": "Leonhard Euler"},
+        {"prompt": "Who is Richard Dedekind?", "wiki_entity": "Richard Dedekind"},
+        {"prompt": "Who is Bernhard Riemann?", "wiki_entity": "Bernhard Riemann"}
+    ],
+    "longfact-objects_moral-disputes": [
+        {"prompt": "What was the ethical controversy surrounding the firing of James Damore from Google?", "wiki_entity": "Google's Ideological Echo Chamber"},
+        {"prompt": "What was the ethical controversy surrounding the Panama Papers leak?", "wiki_entity": "Panama Papers"},
+        {"prompt": "What was the ethical controversy surrounding the Enron scandal?", "wiki_entity": "Enron scandal"},
+        {"prompt": "What was the ethical controversy surrounding the phone-hacking by News of the World?", "wiki_entity": "News International phone hacking scandal"}
+    ],
+    "longfact-objects_movies": [
+        {"prompt": "What is the movie 'Call Me By Your Name'?", "wiki_entity": "Call Me by Your Name (film)"},
+        {"prompt": "What is the movie 'The Irishman'?", "wiki_entity": "The Irishman"},
+        {"prompt": "What is the movie 'Parasite'?", "wiki_entity": "Parasite (2019 film)"},
+        {"prompt": "What is the movie 'Pulp Fiction'?", "wiki_entity": "Pulp Fiction"}
+    ],
+    "longfact-objects_music": [
+        {"prompt": "Who is the musician \"Brian Eno\"?", "wiki_entity": "Brian Eno"},
+        {"prompt": "Who is the pianist \"Lang Lang\"?", "wiki_entity": "Lang Lang"},
+        {"prompt": "Who is the singer \"Billie Eilish\"?", "wiki_entity": "Billie Eilish"},
+        {"prompt": "Who is the violinist \"Itzhak Perlman\"?", "wiki_entity": "Itzhak Perlman"}
+    ],
+    "longfact-objects_philosophy": [
+        {"prompt": "Who is Gottfried Wilhelm Leibniz?", "wiki_entity": "Gottfried Wilhelm Leibniz"},
+        {"prompt": "Who is Soren Kierkegaard?", "wiki_entity": "Søren Kierkegaard"},
+        {"prompt": "Who is Zeno of Citium?", "wiki_entity": "Zeno of Citium"},
+        {"prompt": "Who is David Hume?", "wiki_entity": "David Hume"}
+    ],
+    "longfact-objects_physics": [
+        {"prompt": "Can you tell me about the TRIUMF, Canada's national particle accelerator facility?", "wiki_entity": "TRIUMF"},
+        {"prompt": "What can you tell me about the LIGO Scientific Collaboration (LSC)?", "wiki_entity": "LIGO Scientific Collaboration"},
+        {"prompt": "Can you tell me about the Cerro Tololo Inter-American Observatory in Chile?", "wiki_entity": "Cerro Tololo Inter-American Observatory"},
+        {"prompt": "Can you tell me about the Atacama Large Millimeter/submillimeter Array (ALMA)?", "wiki_entity": "Atacama Large Millimeter Array"}
+    ]
+}

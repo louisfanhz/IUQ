@@ -1,0 +1,25 @@
+seed: 42
+model:
+  # model: "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+  # model: "google/gemma-3n-E4B-it"
+  # model: "google/gemma-4-31B-it"
+  # model: "Qwen/Qwen2.5-7B-Instruct-Turbo"
+  # model: "openai/gpt-oss-20b"
+  # model: "gpt-5-mini-2025-08-07"
+  model: "moonshotai/Kimi-K2.5"
+  # model: "MiniMaxAI/MiniMax-M2.7"
+  # judge: "gpt-5-mini-2025-08-07"
+  judge: "gpt-4o-2024-08-06"
+data:
+  dataset: "factscore"
+  num_topics: 5
+  num_gen_samples: 5
+  num_question_per_claim: 1
+  num_ans_per_question: 3
+  max_completion_tokens: 30000
+  temperature: 1.0
+  top_p: 1.0
+  factscore_db_path: "./dataset/factscore/factscore_knowledge_sources.db"
+  factscore_prompt_entities_path: "./dataset/factscore/prompt_entities_unlabeled.txt"
+  longfact_data_path: "./dataset/longfact/selected_prompts.json"
+  ref_doc_retrieval_k: 5
