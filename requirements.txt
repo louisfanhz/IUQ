@@ -1,0 +1,13 @@
+datasets
+evaluate
+pydantic==2.10.6
+omegaconf
+rich
+nltk
+openai
+together
+rouge_score
+bert_score
+scikit-learn
+tqdm
+wikipedia

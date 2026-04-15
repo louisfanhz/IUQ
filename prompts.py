@@ -38,53 +38,6 @@ Return only the question, with no additional text.
 Context: {context}
 
 Claim: {claim}""",
-
-    "rank_q_system_prompt": """You are a helpful assistant.""",
-    "rank_q_user_prompt": """You are given a list of numbered questions. Carefully follow the instructions below to compile the questions into ranked question sets:
-1. Cluster similar questions into sets, where each pair of questions in a set are similar to each other. Two questions are similar if they are phrased similarly, or potentially have the same answer.
-2. Rerank the question sets by generality, that is, the most general questions should be ranked first, and the most specific, focused questions should be ranked last.
-3. Return a list of ranked question sets, where each set is a list of question numbers given in the original question list.
-
-<Question List>
-{question_list}
-</Question List>""",
-
-    "rm_redundant_ac_system_prompt": """You are a helpful assistant who carefully examines difference between statements.""",
-    "rm_redundant_ac_user_prompt_2": """Given two lists of claims, check the redundancy for claims in list B with respect to claims in list A.
-For each claim in list B, if it contains information that is already present in any claim in list A, label it as a redundant claim.
-
-<Claim List A>
-{claim_list_A}
-</Claim List A>
-
-<Claim List B>
-{claim_list_B}
-</Claim List B>""",
-
-    "rm_redundant_ac_user_prompt": """Given two lists of claims, check the redundancy for claims in list B with respect to claims in list A.
-Claim in list B is deemed redundant if it contains information that is already present in any claim in list A. Return a list of indices of the redundant claims in list B.
-
-<Claim List A>
-{claim_list_A}
-</Claim List A>
-
-<Claim List B>
-{claim_list_B}
-</Claim List B>""",
-
-    "cluster_similar_ac_system_prompt": """You are a helpful assistant.""",
-    "cluster_similar_ac_user_prompt": """You are given a list of statements, where statements are labeled in numerical order. Return sets of labels where each set contains similar statements.
-
-<Statement List>
-{statement_list}
-</Statement List>""",
-
-    "combine_ac_system_prompt": """You are a helpful assistant.""",
-    "combine_ac_user_prompt": """You are given a list of statements, where each statement is similar to each other but not necessarily identical. Remove redundant information and return 1-3 concise and clear statements.
-
-<Statement List>
-{statement_list}
-</Statement List>""",
 }
 
 responder_prompts = {

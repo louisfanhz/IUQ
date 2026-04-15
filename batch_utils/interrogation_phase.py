@@ -147,7 +147,7 @@ class InterrogationPhase:
             
             response = result.response or ""
             if not response:
-                print(f"  Warning: no response from claim extraction for generation {gen_idx+1}")
+                print(f"  Warning: no response from claim extraction for {topic} generation {gen_idx+1}")
                 continue
 
             cleaned_claims = json.loads(response)["atomic_claims"]

@@ -314,9 +314,10 @@ class FaithfulnessEvaluationPhase:
                     faithfulness_map[(topic, gen_idx, claim_idx, ca_idx, ans_idx)] = percentage / 100.0
                 else:
                     print(f"WARNING: Out of range contradiction {percentage} for {topic} gen={gen_idx} claim={claim_idx}, response={response}")
-                    faithfulness_map[(topic, gen_idx, claim_idx, ca_idx, ans_idx)] = 0.0
             else:
                 print(f"WARNING: Could not parse response of contradiction for {topic} gen={gen_idx} claim={claim_idx}, due to missing percentage: {response}")
+
+            if not faithfulness_map.get((topic, gen_idx, claim_idx, ca_idx, ans_idx), None):
                 faithfulness_map[(topic, gen_idx, claim_idx, ca_idx, ans_idx)] = 0.0
         
         # Update analysis cache

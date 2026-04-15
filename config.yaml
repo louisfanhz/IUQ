@@ -1,18 +1,21 @@
 seed: 42
 model:
   # model: "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+  # model: "mistralai/Mistral-Small-24B-Instruct-2501"
   # model: "google/gemma-3n-E4B-it"
   # model: "google/gemma-4-31B-it"
   # model: "Qwen/Qwen2.5-7B-Instruct-Turbo"
+  # model: "Qwen/Qwen3.5-397B-A17B
+  model: "openai/gpt-oss-120b"
   # model: "openai/gpt-oss-20b"
   # model: "gpt-5-mini-2025-08-07"
-  model: "moonshotai/Kimi-K2.5"
+  # model: "moonshotai/Kimi-K2.5"
   # model: "MiniMaxAI/MiniMax-M2.7"
   # judge: "gpt-5-mini-2025-08-07"
   judge: "gpt-4o-2024-08-06"
 data:
   dataset: "factscore"
-  num_topics: 5
+  num_topics: 10
   num_gen_samples: 5
   num_question_per_claim: 1
   num_ans_per_question: 3
