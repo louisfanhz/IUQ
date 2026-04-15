@@ -163,3 +163,17 @@ The **faithfulness phase** is the second largest cost driver: it grows with `num
     ├── parse_factscore.py
     └── parse_longfact.py
 ```
+
+---
+
+## Citation
+
+If you find our paper or code helpful, please consider citing:
+
+```bibtex
+@inproceedings{fan2026iuq,
+  title     = {IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation},
+  author    = {<Author 1> and <Author 2> and <Author 3>},
+  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2026}
+}
