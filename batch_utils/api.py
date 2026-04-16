@@ -135,7 +135,7 @@ class OpenAIBatchInference(BatchInferenceBase):
                 body = {
                     "model": req.model,
                     "messages": messages,
-                    # "reasoning_effort": "low",     # Needed for OpenAI's reasoning models for lower token consumption. Also, for UQ tasks we assume no reasoning is needed.
+                    "reasoning_effort": "low",     # Needed for OpenAI's reasoning models for lower token consumption. Also, for UQ tasks we assume no reasoning is needed.
                     **req.params
                 }
                 

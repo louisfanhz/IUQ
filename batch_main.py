@@ -303,19 +303,11 @@ if __name__ == "__main__":
     cmd_group = parser.add_argument_group('Pipeline Commands')
     cmd_group.add_argument("--result-dir", type=str, default="./results_batch",
         help="Directory to save the results")
-    cmd_group.add_argument("--poll-interval", type=int, default=60,
-        help="Polling interval in seconds for --run-to-completion (default: 60)")
     ex_grp = cmd_group.add_mutually_exclusive_group()
     ex_grp.add_argument("--next", action="store_true",
         help="Advance the pipeline by one step (submit batch or process completed results)")
     ex_grp.add_argument("--status", action="store_true",
         help="Show current pipeline status")
-    ex_grp.add_argument("--run-to-completion", action="store_true",
-        help="Poll and advance until all phases are done")
-    ex_grp.add_argument("--skip-phase", action="store_true",
-        help="Skip the current phase")
-    ex_grp.add_argument("--reset-phase", action="store_true",
-        help="Reset the current phase to pending (re-submits on next --next)")
     ex_grp.add_argument("--check-status", type=str, metavar="BATCH_ID",
         help="Check status of a specific batch job by ID")
     
