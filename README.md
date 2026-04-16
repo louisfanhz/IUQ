@@ -123,7 +123,7 @@ results_synchronous/
 
 ## Token Usage Estimates
 
-Based on a reference run: **5 topics, 5 diverse generations, 1 question/claim, 3 answers/question**, using `Llama-3.3-70B-Instruct-Turbo` on FActScore (~92 claims/topic on average).
+Based on a reference run: **5 topics, 5 generations/topic, 1 question/claim, 3 answers/question**, using `Llama-3.3-70B-Instruct-Turbo` on FActScore (~92 claims/topic on average).
 
 | Phase | Total tokens (5 topics) | Per topic | Notes |
 |-------|------------------------|-----------|-------|
