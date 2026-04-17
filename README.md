@@ -171,9 +171,12 @@ The **faithfulness phase** is the second largest cost driver: it grows with `num
 If you find our paper or code helpful, please consider citing:
 
 ```bibtex
-@inproceedings{fan2026iuq,
-  title     = {IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation},
-  author    = {<Author 1> and <Author 2> and <Author 3>},
-  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year      = {2026}
+@misc{fan2026iuq,
+      title={IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation}, 
+      author={Haozhi Fan and Jinhao Duan and Kaidi Xu},
+      year={2026},
+      eprint={2604.15109},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.15109}, 
 }
