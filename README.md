@@ -1,6 +1,6 @@
 # IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation [ACL 2026]
 
-This repo is the implementation of **IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation**.
+This repo is the implementation of **IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation** [paper](https://arxiv.org/abs/2604.15109).
 
 IUQ quantifies uncertainty in long-form Large-Language-Model generation by interrogating the model with targeted independent questions. The final claim-level uncertainty score is a combination of cross-sample consistency and the model's faithfulness to the generative context.
 
