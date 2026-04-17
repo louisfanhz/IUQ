@@ -172,11 +172,11 @@ If you find our paper or code helpful, please consider citing:
 
 ```bibtex
 @misc{fan2026iuq,
-      title={IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation}, 
-      author={Haozhi Fan and Jinhao Duan and Kaidi Xu},
-      year={2026},
-      eprint={2604.15109},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2604.15109}, 
+  title={IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation}, 
+  author={Haozhi Fan and Jinhao Duan and Kaidi Xu},
+  year={2026},
+  eprint={2604.15109},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2604.15109}, 
 }
